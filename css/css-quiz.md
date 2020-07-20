@@ -211,7 +211,8 @@ section + p {
 1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file .
 2. Inline; CSS is added to the HTML tag.
 3. Internal; CSS is included within the <head> element of the HTML file.
-```
+``` <<<<---Correct
+
 #### Q17. Which of the following is true of the SVG image format?
 - CSS can be applied to SVGs but JavaScript cannot be.
 - SVGs work best for creating 3D graphics.
@@ -227,7 +228,7 @@ section + p {
 - The color of the link will display as pink after its been clicked or if the mouse is hovering over the link.
 - The color of the link will display as pink on mouse hover.
 - The color of the link will display as pink while the link is being clicked but before the mouse
-click is released.
+click is released. <<<<---Correct
 - The color of the link will display as pink before it has been clicked.
 
 #### Q19. To change the color of an SVG using CSS, which property is used?
@@ -238,12 +239,12 @@ click is released.
 
 #### Q20. When using position: fixed, what will the element always be positioned relative to?
 - the closest element with position: relative
-- the viewport <<<<---Correct
+- the viewport <<<<---Correct<<<<---Correct
 - the parent element
 - the wrapper element
 
 #### Q21. By default, a background image will repeat ________
-- only if the background-repeat property is set to repeat
+- only if the background-repeat property is set to repeat <<<<---Correct
 - indefinitely, vertically, and horizontally 
 - indefinitely on the horizontal axis only 
 - once, on the x and y axis
@@ -255,7 +256,7 @@ click is released.
 - print, speech, device 
 
 #### Q23. How would you make the first letter of every paragraph on the page red?
-- p::first-letter { color: red; } 
+- p::first-letter { color: red; } <<<<---Correct
 - p:first-letter { color: red; }
 - first-letter::p { color: red; }
 - first-letter:p { color: red; }
@@ -275,7 +276,7 @@ color: #000000;
 -
 ```
 "p" is the selector
-"color" is the property 
+"color" is the property <<<<---Correct
 "#000000" is the value
 ```
 -
